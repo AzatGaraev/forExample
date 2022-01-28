@@ -1,0 +1,904 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, 'PT Sans Narrow';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* padding-bottom: 72px; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+nav {
+  width: 100%;
+  height: 72px;
+  background: black;
+  color: white;
+  font-size: 18px;
+  
+  
+  
+
+}
+
+/* .box{
+  position: relative;
+  top: 75px;
+} */
+
+[href]{
+  color: white;
+  text-decoration: none;
+}
+
+.Nav1{
+  position: absolute;
+  width: 61px;
+  height: 23px;
+  left: 149px;
+  top: 25px;
+
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+}
+
+.Nav2{
+  position: absolute;
+  white-space: nowrap;
+  width: 100px;
+  height: 24px;
+  left: 276px;
+  top: 24px;
+
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+}
+
+.Nav3{
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 439px;
+  top: 24px;
+
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+}
+
+.Nav4{
+  position: absolute;
+  width: 74px;
+  height: 24px;
+  left: 589px;
+  top: 24px;
+
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+}
+
+.Nav5{
+  position: absolute;
+  width: 104px;
+  height: 24px;
+  left: 730px;
+  top: 24px;
+  white-space: nowrap;
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+}
+
+.Nav6{
+  position: absolute;
+  width: 47px;
+  height: 24px;
+  left: 1013px;
+  top: 24px;
+
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+}
+
+.loginIcon{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 978px;
+  top: 28px;
+}
+
+
+.part1 {
+  width: 100%;
+  
+  
+  
+}
+
+.smallText{
+
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.logoDiv{
+  text-align:center;
+}
+
+.vlogsUp{
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 321px;
+  color: white;
+  
+}
+
+.vlog{
+  width: 320px;
+  height: 170px;
+}
+.angle{
+
+  position: absolute;
+  top: 600px;
+  left: 70px;
+  border-top: 23px solid white; 
+  border-left: 23px solid transparent;
+}
+
+.vlog.style1{
+  
+  background: white;
+  color: black;
+
+  font-family: PT Sans Narrow;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.vlog.style2{
+  
+  background: #232424;
+  font-family: PT Sans Narrow;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.vlog.style3{
+  
+  background: rgb(94, 89, 89);
+  font-family: PT Sans Narrow;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.part2{
+  width: 100%;
+  background: rgb(53, 51, 51);
+  
+  
+
+}
+
+.vlogsDown{
+  display: flex;
+  justify-content: center;
+  top: 321px;
+  color: white;
+  
+}
+
+.styleTextStar{
+  color: grey;
+}
+
+.vlog.style4{
+    
+  background: white;
+  color: black;
+
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 20px;
+
+}
+
+.vlog.style5{
+  background: rgb(94, 89, 89);
+
+  font-family: PT Sans Narrow;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.vlog.style6{
+  
+  background: #232424;
+  font-family: PT Sans Narrow;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.cardInfo{
+  display: flex;
+  
+  margin-top: 50px;
+  justify-content: center;
+}
+.card1{
+  width: 250px;
+  
+  border-right: 2px solid grey;
+  padding-right: 40px;
+ 
+}
+
+.imgCard1{
+  height: 95px;
+  width: 95px;
+  padding-left: 80px;
+
+}
+
+.firstWordByCard{
+  font-family: PT Sans Narrow;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.smallTextCard{
+
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  text-align: center;
+  color: white;
+}
+
+.card2{
+  width: 250px;
+  border-right: 2px solid grey;
+  padding-right: 50px;
+  margin-left: 40px;
+}
+
+.imgCard2{
+  height: 95px;
+  width: 95px;
+  padding-left: 80px;
+}
+
+.secondWordByCard{
+  font-family: PT Sans Narrow;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+.card3{
+  width: 250px;
+  margin-left: 40px;
+}
+
+.imgCard3{
+  height: 95px;
+  width: 95px;
+  padding-left: 80px;
+}
+
+.thirdWordByCard{
+  font-family: PT Sans Narrow;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+
+.part3{
+  width: 100%;
+  height: 350px;
+  background: #F8F5F2;
+  
+  
+}
+
+.part3Line{
+  
+  display: flex;
+
+}
+.triangle-down {
+  
+width: 0;
+height: 50px;
+border-left: 600px solid transparent;
+border-right: 600px solid transparent;
+border-top: 50px solid rgb(53, 51, 51);
+position: relative;
+
+}
+
+.newsFromPart3{
+  font-family: PT Sans Narrow;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin-left: 190px;
+}
+
+.btn1{
+  font-family: PT Sans Narrow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-left: 500px;
+}
+
+.news{
+  display: flex;
+  width: 400px;
+  height: 200px;
+  
+}
+
+.blackSquare1{
+  width: 50px;
+  height: 50px;
+  background: black;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 120px;
+  margin-top: 50px;
+  margin-right: 30px;
+
+  position: absolute;
+}
+
+.angleForSquare1{
+  width: 0;
+height: 10px;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+border-top: 10px solid black;
+  
+
+  position: relative;
+  margin-left: 120px;
+  margin-top: 105px
+}
+
+.text1Part3{
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  text-align: left;
+  color: black;
+
+  margin-left: 200px;
+  position: absolute;
+
+  width: 200px;
+}
+
+.blackSquare2{
+  width: 50px;
+  height: 50px;
+  background: black;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-right: 30px;
+
+  position: absolute;
+}
+
+.angleForSquare2{
+  width: 0;
+height: 10px;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+border-top: 10px solid black;
+  
+  position: relative;
+  margin-left: 330px;
+  margin-top: 105px
+}
+
+.text2Part3{
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  text-align: left;
+  color: black;
+
+  margin-left: 580px;
+  position: absolute;
+
+  width: 200px;
+}
+
+
+.blackSquare3{
+  width: 50px;
+  height: 50px;
+  background: black;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 850px;
+  margin-top: 50px;
+  margin-right: 30px;
+
+  position: absolute;
+}
+
+.angleForSquare3{
+  width: 0;
+height: 10px;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+border-top: 10px solid black;
+  
+
+  position: relative;
+  margin-left: 300px;
+  margin-top: 105px
+}
+
+.text3Part3{
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  text-align: left;
+  color: black;
+
+  margin-left: 930px;
+  position: absolute;
+  width: 200px;
+}
+
+.part4{
+    
+  border-top: 2px solid grey;
+  width: 100%;
+  padding-top: 30px;
+  
+  padding-bottom: 30px;
+  
+}
+.part4Line{
+  display: flex;
+}
+.feedback{
+  font-family: PT Sans Narrow;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin-left: 190px;
+  
+}
+
+.btn2{
+  font-family: PT Sans Narrow;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-left: 555px;
+  background: black;
+  border-radius: 10px;
+}
+
+
+
+.downStairs{
+
+  width: 100%;
+  height: 150px;
+  background: rgb(53, 51, 51);
+  display: inline-flex;
+  min-width: 1200px;
+  
+  
+}
+ 
+.adress{
+  font-family: PT Sans Narrow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+ 
+  color: white;
+  margin-left: 80px ;
+  padding-top: 30px;
+}
+
+.smallTextAdr{
+  
+  font-family: PT Sans Narrow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  
+  text-align: left;
+  color: white;
+}
+
+.socSeti{
+   margin-left: 150px;
+   text-align: center;
+   
+}
+
+.smallTextSoc{
+  font-family: PT Sans Narrow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: center;
+  color: white;
+}
+.sqr{
+   width: 60px;
+   height: 60px;
+   display: inline-block;
+   background:rgb(53, 51, 51);
+}
+
+.vkIcon{
+   width: 15px;
+   height: 17px;
+}
+
+.fbIcon{
+  width: 10px;
+  height: 17px;
+}
+
+.instIcon{
+  width: 17px;
+  height: 17px;
+  
+}
+
+.dev{
+  margin-left: 250px;
+}
+.btnDev{
+  width: 160px;
+  height: 50px;
+  background:rgb(53, 51, 51);
+  color: white;
+}
+.smallTextSoc{
+  text-align: center;
+}
+
+.square{
+    
+    position: relative;
+    width: fit-content;
+    display: flex;
+  
+}
+
+
+
+.feedbackText{
+  margin-left: 5% ;
+  margin-right: 5%;
+  border-radius: 10px;
+  height: 145px;
+  font-size: 25px;
+  outline-color: purple;
+  border: 2px solid black;
+  font-family: 'Lobster', cursive;
+  row-gap: 100;
+}
+
+.forBtnFeedback{
+  margin-left: 20%;
+}
+
+
+.spaceForAuth{
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding-top: 100px ;
+}
+
+.hrefForGoogle{
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+  color: rgb(105, 46, 199);
+}
+
+
+.contactsBG{
+  background: #F8F5F2;
+  width: 100%;
+  height: 500px;
+  padding-top: 100px;
+}
+
+.contacts{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  color: purple;
+  margin: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+  body{
+   min-width: 1200px;
+  }
+}
+  
+  
+  @media screen and (max-width: 768px) and (min-width: 320px) {
+    
+  body{
+    min-width: 1200px;
+    
+    
+  }
+  .select{
+    font-size: 26px;
+  }
+}
+
+
+form {
+  background: #0e101c;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+form {
+  max-width: 500px;
+  
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(79, 98, 148);
+  margin-top: 0;
+}
+
+.form {
+  background: #0e101c;
+  max-width: 400px;
+  
+ 
+  
+}
+
+p {
+  color: #bf1650;
+}
+
+/* p::before {
+  display: inline;
+  content: "⚠ ";
+} */
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+button[type="submit"],
+input[type="submit"] {
+  background: #ec5990;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background: #bf1650;
+}
+
+button[type="submit"]:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+input:disabled {
+  opacity: 0.4;
+}
+
+input[type="button"]:hover {
+  transition: 0.3s all;
+}
+
+button[type="submit"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button[type="button"] {
+  display: block;
+  appearance: none;
+  background: #333;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+textarea{
+  width: 99%;
+  height: 100%;
+  background: rgb(248, 222, 207);
+}
+
+
+
+
+
