@@ -1,0 +1,251 @@
+
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    padding-bottom: 10px;
+    z-index: 3;
+    background-color: rgb(120, 231, 144);
+}
+
+nav{
+    margin-top: 10px;
+    
+}
+
+[href]{
+    
+    text-decoration: none;
+  }
+
+.ul__header {
+    list-style-type: none ;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ul__header > li {
+    margin: 0 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: cursive;
+    
+}
+.ul__header > li::before {
+    position: relative;
+    top: 56px;
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: gold;
+    transition: .6s all;
+    
+}
+
+
+.ul__header > li:hover::before {
+    position: relative;
+    top: 56px;
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: rgb(127, 160, 9);
+    
+}
+
+.label{
+   width: 200px; 
+   margin: 20px 100px ;
+}
+
+.picKod{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    min-width: 900px;
+}
+.containerForPic > h1 {
+    
+    color: rgb(241, 161, 12);
+    font-size: 60px;
+    font-family: cursive;
+    padding:200px 100px;
+    text-align: center;
+    position: relative;
+    min-width: 600px;
+     
+}
+
+p{
+    font-family: cursive;
+    padding: 0 100px;
+    font-size: 36px;
+    text-align: left;
+    color: grey;
+    min-width: 600px;
+}
+
+h2{
+    font-family: cursive;
+    padding: 100px;
+    font-size: 42px;
+    text-align: left;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.main__logo{
+  display: block;
+  margin: 0 auto ;
+}
+
+h3{
+    font-family: cursive;
+    padding: 100px;
+    font-size: 36px;
+    text-align: left;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.container > ul {
+    font-family: cursive;
+    padding: 20px 100px;
+    font-size: 36px;
+    text-align: left;
+    color: grey;
+}
+a.idTop {
+    text-decoration: none;
+    position: fixed; 
+    bottom: 0%; 
+    right: 0%; 
+    background: rgb(47, 177, 69);
+    opacity: .6; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 20px;
+}
+   a.idTop:hover {
+    opacity: 1;
+   }
+
+footer{
+    background: rgb(171, 182, 241);
+    height: 300px;
+}
+.sqr{
+    background: rgb(22, 7, 235);
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+footer {
+    font-family: cursive;
+    padding: 0 100px;
+    font-size: 36px;
+    text-align: center;
+       
+}
+footer > p {
+    font-family: cursive;
+    padding: 0 100px;
+    font-size: 36px;
+    text-align: center;
+    color: rgb(37, 50, 238);
+    }
+.socSeti{
+    margin-top: 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.bgForm{
+      background: rgb(233, 161, 161);
+  }
+  
+.bgForm > h1 {
+    font-weight: 100;
+    color: #ec5990;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(79, 98, 148);
+    font-family: cursive;
+  }
+  
+.pForm {
+    color: #bf1650;
+}
+  
+.pForm::before {
+    display: inline;
+    content: "⚠ ";
+}
+  
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+  
+  button[type="submit"],
+  input[type="submit"] {
+    background: #ec5990;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+  
+  button[type="submit"]:hover,
+  input[type="submit"]:hover {
+    background: #bf1650;
+}
+  
+  button[type="submit"]:active,
+  input[type="button"]:active,
+  input[type="submit"]:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+}
+  
+input:disabled {
+    opacity: 0.4;
+}
+  
+input[type="button"]:hover {
+    transition: 0.3s all;
+}
+  
+button[type="submit"],
+input[type="button"],
+input[type="submit"] {
+-webkit-appearance: none;
+}
+
+.picCases {
+    text-align: center;
+    margin: 150px ;
+}
+.forCompany, .forContacts{
+    text-align: center;
+    margin: 50px ;
+}
+
+ 
